@@ -18,6 +18,7 @@ namespace App02Opgave40
 
             Console.WriteLine("Summen af brugerens to indtastede tal:");
             Console.WriteLine(tres.ToString("N2"));
+
         }
     }
 }

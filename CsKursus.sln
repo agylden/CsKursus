@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App00DebugTest", "DebugTest\App00DebugTest.csproj", "{AACC7D01-C773-4BFA-B92E-2F70D6535044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App00DebugTest", "DebugTest\App00DebugTest.csproj", "{AACC7D01-C773-4BFA-B92E-2F70D6535044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01Console", "App01Console\App01Console.csproj", "{B41DD63B-5EF9-4191-86F9-067F0CFCBBA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App01Console", "App01Console\App01Console.csproj", "{B41DD63B-5EF9-4191-86F9-067F0CFCBBA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App02variabler", "App02variabler\App02variabler.csproj", "{D8D1FD9C-3DA3-497B-80D4-39D9B3142DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App02variabler", "App02variabler\App02variabler.csproj", "{D8D1FD9C-3DA3-497B-80D4-39D9B3142DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App03Opgave40-2", "Opgave40\App03Opgave40-2.csproj", "{9DB8894E-AA9C-401A-A6E5-3A12442A2A12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D8D1FD9C-3DA3-497B-80D4-39D9B3142DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8D1FD9C-3DA3-497B-80D4-39D9B3142DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8D1FD9C-3DA3-497B-80D4-39D9B3142DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB8894E-AA9C-401A-A6E5-3A12442A2A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB8894E-AA9C-401A-A6E5-3A12442A2A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB8894E-AA9C-401A-A6E5-3A12442A2A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB8894E-AA9C-401A-A6E5-3A12442A2A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

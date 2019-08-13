@@ -6,6 +6,7 @@ namespace App02Opgave40
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Indtast tal1");
             string tal1 = Console.ReadLine();
             Console.WriteLine("Indtast tal2");

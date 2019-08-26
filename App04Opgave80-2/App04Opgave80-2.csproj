@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>App04Opgave75_1</RootNamespace>
+    <RootNamespace>App04Opgave80_2</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System;
+using MCronberg;
 
 namespace App05Opgave90_3
 {
@@ -14,17 +15,18 @@ namespace App05Opgave90_3
             Console.WriteLine(p.FuldtNavn());
 
             Console.WriteLine("Nyt eksempel:");
-
+             
             Person s = new Person();
             s.Fornavn = "je";
             s.Efternavn = "ne";
             Console.WriteLine(s.Fornavn);
             Console.WriteLine(s.Efternavn);
             Console.WriteLine(s.FuldtNavn());
+            //Console.WriteLine(s.ToStringEx());
         }
     }
 
-    class Person
+    class Person 
     {
         public string Fornavn { get; set; }
         private string _Efternavn;

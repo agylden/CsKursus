@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace App06Opgave120_2
 {
@@ -20,17 +21,17 @@ namespace App06Opgave120_2
 
             Console.WriteLine();
             Console.WriteLine("Mellemrum:");
-            Beregn f = new Beregn(FindTilfældigFunktion());
+            Func<int,int,int> f = FindTilfældigFunktion();
             int res5 = f(5, 5);
             Console.WriteLine(res5);
         }
 
-        public delegate int Beregn(int a, int b);
+        // we use func instead....
+        // public delegate int Beregn(int a, int b);
 
-        public static int Beregner(int a, int b, Beregn func)
+        public static int Beregner(int a, int b, Func<int,int,int> func)
         {
-            Beregn test = new Beregn(func);
-            return test.Invoke(a, b);
+            return func.Invoke(a, b);
         }
 
         public static int Plus(int a, int b)
@@ -52,7 +53,7 @@ namespace App06Opgave120_2
             return a * b;
         }
 
-        public static Beregn FindTilfældigFunktion()
+        public static Func<int,int,int> FindTilfældigFunktion()
         {
             if (System.DateTime.Now.Millisecond <= 250)
                 return Plus;
